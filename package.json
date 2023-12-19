@@ -2,11 +2,10 @@
   "name": "recipe-web",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build-css": "tailwindcss build src/styles.css -o public/style.css",
-    "start": "node index.js",
-    "build": "npm run build-css && npm run start"
+    "start": "vite"
   },
   "keywords": [],
   "author": "",
